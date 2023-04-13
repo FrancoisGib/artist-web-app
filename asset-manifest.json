@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/artist-web-app/static/css/main.453069ef.css",
+    "main.js": "/artist-web-app/static/js/main.0b587e72.js",
+    "index.html": "/artist-web-app/index.html",
+    "main.453069ef.css.map": "/artist-web-app/static/css/main.453069ef.css.map",
+    "main.0b587e72.js.map": "/artist-web-app/static/js/main.0b587e72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.453069ef.css",
+    "static/js/main.0b587e72.js"
+  ]
+}
