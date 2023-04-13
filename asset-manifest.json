@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/artist-web-app/static/css/main.453069ef.css",
-    "main.js": "/artist-web-app/static/js/main.099ae4fa.js",
+    "main.js": "/artist-web-app/static/js/main.a187fa4c.js",
     "index.html": "/artist-web-app/index.html",
     "main.453069ef.css.map": "/artist-web-app/static/css/main.453069ef.css.map",
-    "main.099ae4fa.js.map": "/artist-web-app/static/js/main.099ae4fa.js.map"
+    "main.a187fa4c.js.map": "/artist-web-app/static/js/main.a187fa4c.js.map"
   },
   "entrypoints": [
     "static/css/main.453069ef.css",
-    "static/js/main.099ae4fa.js"
+    "static/js/main.a187fa4c.js"
   ]
 }
