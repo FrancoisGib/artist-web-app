@@ -1,0 +1,56 @@
+[
+  {
+    "name": "lieux-alternatifs",
+    "title": "Lieux alternatifs",
+    "content": "Lieux alternatifs est un regroupement de photographies de paysages transformés par la couleur. Ces lieux existent tous mais semblent irréels en raison de la colorimétrie étonnante. J’aime jouer entre les frontières du réel et de l’irréel, proposer d’autres manières de regarder les paysages, de les détourner, de les magnifier et de donner parfois des impressions à la croisée de la science-fiction et de la fantasy pour nous faire rêver au-delà de la réalité.",
+    "src": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg"
+    ]
+  },
+  {
+    "name": "personne",
+    "title": "Personne",
+    "content": "Personne est un regroupement de photographies d’individus perdus dans des paysages. « Personne » car les silhouettes photographiées n’ont pas d’identité, elles ne sont que des ombres, des présences fantomatiques qui habitent ces lieux ou les traversent.",
+    "src": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg"
+    ]
+  },
+  {
+    "name": "prediction",
+    "title": "Prédiction",
+    "content": "Prédiction est un regroupement de photographies sur le thème de la transformation de l’environnement évoquant l’évolution et la perte de la biodiversité, celle-ci pouvant être végétale, animale, terrestre ou marine. Par le rendu à l’atmosphère fantastique et dystopique, ces photographies sont le lieu d’anticipation de futurs possibles, désirables ou non qui donnent à voir autrement des aspects du monde.",
+    "src": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg",
+      "19.jpg"
+    ]
+  }
+]

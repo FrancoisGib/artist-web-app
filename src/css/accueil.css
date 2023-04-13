@@ -1,0 +1,137 @@
+.accueil {
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+
+}
+
+.accueil-titles {
+    margin: 0px auto 100px auto;
+}
+
+.accueil-h1 {
+    font-size: 2rem;
+    color: red;
+    margin: 50px;
+}
+
+.accueil-h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+.accueil-panorama{
+    width: 100%;
+}
+
+.accueil-panorama input{
+    display: none;
+}
+
+.accueil-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 700px;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+.accueil-images .item{
+    border-radius: 10px;
+    background-color: #ffffffe1;
+    position: absolute;
+    transition: transform 0.4s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.526);
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 1px black solid;
+}
+
+
+.accueil-images .item img{
+    width: 363px;
+    height: 545px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots label{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #312b42;
+    margin: 7px;
+    transition-duration: 0.2s;
+}
+
+#t-1:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-4"],
+#t-5:checked ~ .dots label[for="t-5"] {
+	transform: scale(2);
+	background-color: green;
+}
+#t-1:checked ~ .dots label[for="t-2"],
+#t-2:checked ~ .dots label[for="t-1"],
+#t-2:checked ~ .dots label[for="t-3"],
+#t-3:checked ~ .dots label[for="t-2"],
+#t-3:checked ~ .dots label[for="t-4"],
+#t-4:checked ~ .dots label[for="t-3"],
+#t-4:checked ~ .dots label[for="t-5"],
+#t-5:checked ~ .dots label[for="t-4"] {
+	transform: scale(1.5);
+}
+#t-1:checked ~ .accueil-images label[for="t-3"],
+#t-2:checked ~ .accueil-images label[for="t-4"],
+#t-3:checked ~ .accueil-images label[for="t-5"],
+#t-4:checked ~ .accueil-images label[for="t-1"],
+#t-5:checked ~ .accueil-images label[for="t-2"] {
+	transform: translate3d(600px, 0, -180px) rotateY(-25deg);
+	z-index: 2;
+}
+#t-1:checked ~ .accueil-images label[for="t-2"],
+#t-2:checked ~ .accueil-images label[for="t-3"],
+#t-3:checked ~ .accueil-images label[for="t-4"],
+#t-4:checked ~ .accueil-images label[for="t-5"],
+#t-5:checked ~ .accueil-images label[for="t-1"] {
+	transform: translate3d(300px, 0, -90px) rotateY(-15deg);
+	z-index: 3;
+}
+#t-2:checked ~ .accueil-images label[for="t-1"],
+#t-3:checked ~ .accueil-images label[for="t-2"],
+#t-4:checked ~ .accueil-images label[for="t-3"],
+#t-5:checked ~ .accueil-images label[for="t-4"],
+#t-1:checked ~ .accueil-images label[for="t-5"] {
+	transform: translate3d(-300px, 0, -90px) rotateY(15deg);
+	z-index: 3;
+}
+#t-3:checked ~ .accueil-images label[for="t-1"],
+#t-4:checked ~ .accueil-images label[for="t-2"],
+#t-5:checked ~ .accueil-images label[for="t-3"],
+#t-2:checked ~ .accueil-images label[for="t-5"],
+#t-1:checked ~ .accueil-images label[for="t-4"] {
+	transform: translate3d(-600px, 0, -180px) rotateY(25deg);
+}
+#t-1:checked ~ .accueil-images label[for="t-1"],
+#t-2:checked ~ .accueil-images label[for="t-2"],
+#t-3:checked ~ .accueil-images label[for="t-3"],
+#t-4:checked ~ .accueil-images label[for="t-4"],
+#t-5:checked ~ .accueil-images label[for="t-4"],
+#t-5:checked ~ .accueil-images label[for="t-5"] {
+	z-index: 4;
+}

@@ -1,0 +1,24 @@
+.footer {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-mail {
+    font-size: 1.5em;
+    margin-top: 10vh;
+    justify-content: center;
+    display: flex;
+    object-fit: none;
+
+}
+.footer-copy {
+    margin-left: 10px;
+    float: right;
+    width: 30px;
+    object-fit:contain;
+}
+
+.contact {
+    font-size: 1.4em;
+    margin-bottom: 5vh;
+}

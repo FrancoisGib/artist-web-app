@@ -1,0 +1,39 @@
+.collectif-title {
+    font-size: 2.5em;
+    color: red;
+    margin-bottom: 10vh;
+    text-align: center;
+    margin-block: 10vh;
+}
+
+.collectif-introducing {
+    width: 90vw;
+    height: 500px;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 10vh;
+    border-bottom: 1px solid black;
+    padding-bottom: 10vh
+}
+
+.collectif-introduce-video {
+    float: left;
+    margin: 10px;
+}
+
+.collectif-introduce-text {
+    min-width: 300px;
+}
+
+.collectif-videos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    width: 90vw;
+    margin: auto;
+    margin-block: 10vh;
+}
+
+.collectif-content-video {
+    margin: 40px;
+}

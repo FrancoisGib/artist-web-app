@@ -1,0 +1,24 @@
+@import './menu.css';
+@import './accueil.css';
+@import './photographie.css';
+@import './collectif.css';
+@import './footer.css';
+
+@import './mobile.css';
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+html {
+    background: linear-gradient(to right, transparent, mistyrose);
+    scroll-behavior: smooth;
+    font-family: "Quicksand", sans-serif;
+    user-select: none;
+}
+
+p, h1, h2 {
+    user-select: text;
+}
+
+body {
+    margin: 0;
+}
